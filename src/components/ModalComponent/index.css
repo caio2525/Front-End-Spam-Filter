@@ -1,0 +1,42 @@
+.Modal{
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+}
+.modalDiv{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 1rem;
+}
+
+.modalTitle{
+  font-family: cursive;
+  font-size: 4rem;
+  color: yellow;
+  margin: 1rem;
+}
+
+.modalText{
+  font-size: 1.5rem;
+  font-weight: lighter;
+  margin: 1rem;
+}
+
+.Overlay{
+  position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+  background-color: red;
+}

@@ -1,0 +1,14 @@
+.styledButton{
+  border-radius: 1rem;
+  font-size: 1rem;
+  font-family: sans-serif;
+  padding: 1rem;
+  text-align: center;
+  font-weight: bolder;
+  box-shadow: 4px 4px silver;
+}
+
+.styledButton:hover{
+  box-shadow: 4px 4px gold;
+  cursor: pointer;
+}
